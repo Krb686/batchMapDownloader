@@ -5,7 +5,7 @@ var mkdirp = require('mkdirp');
 
 var SERVERS = ['a', 'b', 'c'];
 var URL = 'tile.cloudmade.com';
-var APIKEY = '1a1b06b230af4efdbb989ea99e9841af';
+var APIKEY = '8ee2a50541944fb9bcedded5165f09d9';
 var STYLE = '998';
 var RESOLUTION = '256';
 var ZOOMLEVELS = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18'];
@@ -41,7 +41,7 @@ var SERVER_SWITCH_LEVEL = [2, 6, 22, 86, 342, 1366, 5462, 21846, 87382, 349526]
 
 
 var serverNum = 0;
-var zoomNum = 1;
+var zoomNum = 5;
 var streamCount = 0;
 
 /*
